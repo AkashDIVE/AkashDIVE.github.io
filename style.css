@@ -1,0 +1,82 @@
+body{
+
+    font-family: Arial;
+
+}
+
+.container{
+    width: 500%;
+    max-width: 1000px ;
+    margin: 0 auto;
+    margin-top: 14vh;
+}
+
+h1{
+    margin-bottom: 55px;
+}
+
+.center{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+input{
+    width: 215%;
+    border: 2px solid #d3d3d3;
+    border-right: none;
+    outline-color: #f80909;
+    padding: 20px;
+}
+
+input:focus{
+    border: 2px solid #eb6060;
+}
+
+button{
+    width: 55%;
+    border: none;
+    color: rgb(221, 221, 216);
+    background: #012350;
+    cursor:progress;
+    font-size: 24px;
+}
+
+table{
+    margin-top: 50px;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 18px;
+}
+
+table td, table th{
+    border: 2px solid rgb(60, 237, 243);
+    padding: 15px;
+}
+
+table td:nth-child(2), table td:nth-child(3){
+    cursor: pointer;
+}
+
+.fa-trash{
+    color: #eeb854;
+    font-size: 28px;
+    display: table-cell !important;
+    text-align: center;
+}
+
+.finished {
+    color: rgb(255, 6, 6);
+    text-decoration: line-through;
+}
+
+.in-progress{
+    color: rgb(13, 233, 61);
+}
+
+.todo {
+    color: rgba(21, 45, 121, 0.733);
+} 
